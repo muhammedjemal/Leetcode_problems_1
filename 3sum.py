@@ -21,5 +21,6 @@ class Solution:
                     left_point +=1
                     while nums[left_point] == nums[left_point-1] and left_point<right_point:
                         left_point +=1
-        return output
+        return output  
  
+     
